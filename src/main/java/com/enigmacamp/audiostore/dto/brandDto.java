@@ -1,44 +1,44 @@
 package com.enigmacamp.audiostore.dto;
 
 public class brandDto {
-	private Long id;
-	private String namaBrand;
-	private String gambar;
-	
-	public brandDto() {
-		// TODO Auto-generated constructor stub
-	}
+    private Long id;
+    private String namaBrand;
+    private String gambar;
 
-	public brandDto(Long id, String namaBrand, String gambar) {
-		super();
-		this.id = id;
-		this.namaBrand = namaBrand;
-		this.gambar = gambar;
-	}
+    public brandDto() {
+        // TODO Auto-generated constructor stub
+    }
 
-	public Long getId() {
-		return id;
-	}
+    public brandDto(Long id, String namaBrand, String gambar) {
+        super();
+        this.id = id;
+        this.namaBrand = namaBrand;
+        this.gambar = gambar;
+    }
 
-	public void setId(Long id) {
-		this.id = id;
-	}
+    public Long getId() {
+        return id;
+    }
 
-	public String getNamaBrand() {
-		return namaBrand;
-	}
+    public void setId(Long id) {
+        this.id = id;
+    }
 
-	public void setNamaBrand(String namaBrand) {
-		this.namaBrand = namaBrand;
-	}
+    public String getNamaBrand() {
+        return namaBrand;
+    }
 
-	public String getGambar() {
-		return gambar;
-	}
+    public void setNamaBrand(String namaBrand) {
+        this.namaBrand = namaBrand;
+    }
 
-	public void setGambar(String gambar) {
-		this.gambar = gambar;
-	}
-	
-	
+    public String getGambar() {
+        return gambar;
+    }
+
+    public void setGambar(String gambar) {
+        this.gambar = gambar;
+    }
+
+
 }

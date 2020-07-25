@@ -6,8 +6,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class AudiostoreApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(AudiostoreApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(AudiostoreApplication.class, args);
+    }
 
 }
